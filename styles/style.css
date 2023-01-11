@@ -39,3 +39,44 @@
     text-decoration: none;
     font-size: 20px;
 }
+/* ----------------------------------Header------------- */
+
+.indexheader{
+    background-color: #D5120F;
+    display: flex;
+    height:300px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.indexheader__titlecontainer{
+    background-color: black;
+    margin-top: 20px;
+    width: 60%;
+}
+
+.indexheader__title{
+    color:#F0E7E4;
+    font-size: 60px;
+    text-align: center;
+}
+
+.indexheader__textcontainer{
+    margin-top: 20px;
+    display: flex;
+    height: 50%;
+    width: 60%;
+    background-color: #F0E7E4;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid black;
+}
+
+.indexheader__text{
+    font-size: 20px;
+    color: black;
+    
+}
+
+
